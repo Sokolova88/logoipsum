@@ -1,0 +1,162 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+.header {
+  padding: 38px 0 47px;
+  background: rgba(255, 113, 67, 0.27);
+  margin-bottom: 104px;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.nav__li {
+  display: inline-block;
+}
+
+.nav__li:not(:first-of-type) {
+  margin-left: 49px;
+}
+
+.nav__link {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.468947px;
+  color: #696871;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #19191b;
+  transition: 300ms;
+}
+
+.button {
+  width: 212px;
+  height: 60px;
+
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button__orange {
+  background: #ff7143;
+}
+
+.button__orange:hover {
+  background: #9f3919;
+  transition: 500ms;
+}
+
+.section {
+  margin-bottom: 85px;
+}
+
+.about__title {
+  max-width: 467px;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  color: #19191b;
+
+  margin-bottom: 30px;
+}
+
+.about__text {
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+
+  max-width: 464px;
+  margin-bottom: 50px;
+}
+
+.button__purple {
+  background: #5454d4;
+}
+
+.button__purple:hover {
+  background: transparent;
+  border: 1px solid #5454d4;
+  color: #5454d4;
+  transition: 500ms;
+}
+
+.button__white {
+  background: transparent;
+  border: 1px solid #5454d4;
+  color: #5454d4;
+  margin-left: 35px;
+}
+
+.button__white:hover {
+  background: #5454d4;
+  transition: 500ms;
+  color: #ffffff;
+}
+
+.footer {
+  background: rgba(255, 113, 67, 0.27);
+  padding: 65px 0 60px;
+}
+
+.header__flex,
+.about__flex,
+.footer__flex,
+.subscription__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscription__title {
+  max-width: 556px;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+  margin-bottom: 38px;
+}
+
+.subscription__flex {
+  flex-direction: row-reverse;
+}
+
+.subscription__input {
+  width: 302px;
+  height: 60px;
+
+  border: 1px solid #7087ff;
+  border-radius: 10px;
+  outline: none;
+
+  margin-right: 39px;
+  padding-left: 14px;
+}
+
+.subscription__input:hover {
+  border: 1px solid #5454d4;
+}
+
+.subscription__input::placeholder,
+.subscription__input {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #000000;
+}
