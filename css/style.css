@@ -118,7 +118,8 @@ ul {
 .header__flex,
 .about__flex,
 .footer__flex,
-.subscription__flex {
+.subscription__flex,
+.conditions__flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,12 +172,6 @@ ul {
   margin-bottom: 98px;
 }
 
-.conditions__list {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-
 .conditions__item {
   min-width: 330px;
   min-height: 441px;
@@ -189,7 +184,7 @@ ul {
   padding: 34px 0 27px;
 }
 
-.conditions__name {
+.conditions__name__title {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -199,7 +194,7 @@ ul {
   margin-bottom: 22px;
 }
 
-.conditions__name__title {
+.conditions__name {
   font-weight: 700;
   font-size: 60px;
   line-height: 56px;
@@ -208,7 +203,7 @@ ul {
   margin-bottom: 28px;
 }
 
-.conditions__name__title span {
+.conditions__name span {
   font-size: 28px;
 }
 
